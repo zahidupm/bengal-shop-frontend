@@ -21,9 +21,9 @@ import Logo from "~/components/Logo.vue";
        </div>
 
        <div class="flex min-w-max">
-         <nuxt-link to=""><span class="bs-icon-box rounded-full hover:bg-gray-400 inline-block flex items-center justify-center"><img src="~/assets/img/heart.png" alt=""></span></nuxt-link>
-         <nuxt-link to="" class="relative"><span class="bs-icon-box rounded-full hover:bg-gray-400 inline-block flex items-center justify-center"><img src="~/assets/img/u_shopping-bag.png" alt=""></span><span class="absolute bg-red-600 px-1 h-4 top-0 right-0 rounded-full text-xs flex justify-center items-center text-white">0</span></nuxt-link>
-         <nuxt-link to="" class="flex items-center"><span class="bs-icon-box rounded-full hover:bg-gray-400 inline-block flex items-center justify-center"><img src="~/assets/img/user.png" alt=""></span><span>Account</span></nuxt-link>
+         <nuxt-link to="/"><span class="bs-icon-box rounded-full hover:bg-gray-400 inline-block flex items-center justify-center"><img src="~/assets/img/heart.png" alt=""></span></nuxt-link>
+         <nuxt-link to="/" class="relative"><span class="bs-icon-box rounded-full hover:bg-gray-400 inline-block flex items-center justify-center"><img src="~/assets/img/u_shopping-bag.png" alt=""></span><span class="absolute bg-red-600 px-1 h-4 top-0 right-0 rounded-full text-xs flex justify-center items-center text-white">0</span></nuxt-link>
+         <nuxt-link to="/" class="flex items-center"><span class="bs-icon-box rounded-full hover:bg-gray-400 inline-block flex items-center justify-center"><img src="~/assets/img/user.png" alt=""></span><span>Account</span></nuxt-link>
        </div>
      </div>
 

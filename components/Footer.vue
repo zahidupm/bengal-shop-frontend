@@ -5,7 +5,7 @@
 <template>
 <div>
   <div class="container">
-    <div class="flex -mx-4 mb-10">
+    <div class="flex -mx-4 mb-10 mt-10">
       <div class="w-1/4 px-4 flex items-center">
         <div class="min-w-max mr-4">
           <img width="80" src="~/assets/img/call-service.png" alt="">
