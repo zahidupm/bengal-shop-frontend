@@ -1,14 +1,13 @@
 <script setup>
-
+import Logo from "~/components/Logo.vue";
 </script>
 
 <template>
  <div>
    <div class="container">
      <div class="flex justify-between items-center py-6">
-       <nuxt-link to="/" class="flex font-size-32 font-medium">
-         <img  class="mr-3" src="~/assets/img/logo.png" alt=""> Bengal shop
-       </nuxt-link>
+       <Logo></Logo>
+
 
        <div class="w-96">
          <div class="border rounded-full flex border-gray-50 p-1 items-center">

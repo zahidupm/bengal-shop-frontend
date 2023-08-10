@@ -35,3 +35,15 @@ body {
 .bs-dark-green-color{
     color: #27AE60;
 }
+h1, h2, h3, h4, h5, h6{
+    @apply font-medium;
+}
+.slide-bg{
+    background-color: #EBFAEB;
+}
+.font-size-22{
+    font-size: 22px;
+}
+.bs-button {
+    @apply bs-dark-green-bg px-6 py-2 inline-block text-white rounded-full;
+}
